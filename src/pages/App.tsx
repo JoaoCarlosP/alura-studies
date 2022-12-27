@@ -1,11 +1,11 @@
-import React from 'react'
-import StudyForm from '../components/StudyForm/StudyForm'
+import React from 'react';
+import StudyForm from '../components/StudyForm/StudyForm';
 import StudyList from '../components/StudyList/StudyList';
-import './styles.scss'
+import style from './App.module.scss';
 
 function App() {
   return (
-    <div className='AppStyle'>
+    <div className={style.AppStyle}>
       <StudyForm />
       <StudyList />
     </div>
