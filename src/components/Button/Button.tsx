@@ -5,7 +5,7 @@ class Button extends React.Component<{children: string}> {
   render() {
     return (
       <button className={style.button}>
-        {this.props.children}
+        {this.props.children || 'teste'}
       </button>
     )
   }
